@@ -18,12 +18,12 @@ public class Movment : MonoBehaviour
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            RiBo.velocity = new Vector2(2, 0);
+            RiBo.velocity = new Vector2(7, 0);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            RiBo.velocity = new Vector2(-2, 0);
+            RiBo.velocity = new Vector2(-7, 0);
 
         }
     }
